@@ -2,6 +2,17 @@
 
 ## git 사용법
 
+### git remote 등록
+
+  1. `git remote -v`를 입력하였을 때 아무런 창이 안나온다면 Repository를 입력 해 줘야합니다.
+
+  2. `git remote add https://github.com/HiFaMi/gc_project_chatbot.git`를
+  그래도 복사하여 넣은 후 다시 `git remote -v`를 입력하면 아래와 같이 나오게 됩니다. 이 상태가 연결된 상태가 됩니다.
+  ```
+  origin	https://github.com/HiFaMi/gc_project_chatbot.git (fetch)
+  origin	https://github.com/HiFaMi/gc_project_chatbot.git (push)
+  ```
+
 ### Branch 만들기
 
   1. 본인의 `branch`확인하기 위해서는 `conda`의 경우 `branch`가 나오는 것을 확인 했는데
